@@ -19,6 +19,5 @@ db.Students.updateOne({ code: 2354 }, { $push: { hobbies: "Lectura" } })
 db.Students.updateOne({ code: 2354 }, { $push: { hobbies: "Música" } })
 
 //name: Hilary Lee, actualizar el correo electrónico a hilarylee09@pearlessa.com
-db.Students.updateOne({ name: "Hilary Lee" }, { $set: { email
-    : "Música" } })
+db.Students.updateOne({ name: "Hilary Lee" }, { $set: { email: "hilarylee09@pearlessa.com" } })
 
